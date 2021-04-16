@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <title>projetJeu_JS</title>
+</head>
+<body class="smooth-scroll">
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 mx-auto mt-4">
+            <img class="img1" src="images/cartoon-crocodile.png" alt="image de crocodile" >
+            <div class="d-flex justify-content-around">
+            <!-- 2 inputs pour: choisir la couleur / appliquer la couleur -->
+              <input type="color" id="inputcolor" >
+              <input type="button" class="btn btn-secondary" id="colorButton" value="Clique moi pour changer la couleur de l'écran!" onclick="changeColor();">
+            </div> <!-- fin div ligne 17-->
+                <button class="btn btn-dark position" onclick="showContent();">Commencer</button>
+                <!--<input class="position btn btn-danger mt-4" value='Commencez'>-->
+                <!-- <div id="box1"></div> -->
+                <div class="mt-4">
+                  <!-- qu°1 -->
+                  <div class="parentquiz card mx-auto text-dark" style="width: 28rem;">
+                  <!-- on crée 2 div pour qu° et indice -->
+                  <div class="card-body">
+                    <p class="card-text text-center"><span class="badge badge-pill badge-dark d-flex justify-content-center">Question 01</span> Devine qui est l'animal!</p>
+                    <p class="text-center">Il a quatre pattes. Il vit avec l'homme. Il aime les os.</p>
+                  </div>
+                    <!-- on crée 2 div qui serviront à afficher un comtenu avec js !div 2 s'affiche qd la reponse est juste -->
+                    <div class="text-center mx-auto" id="modal2"></div>
+                    <div class="embed-responsive text-center mx-auto" id="modal3"></div>
+                    <!-- on affiche les 5 images -->
+                    <div class="flexy">
+                          <!-- javascript:void pour empecher le fait de remonter en haut mais ne sert a rien dans notre cas -->
+                            <a href="javascript:void(0)"><img id="img2" onclick="getAnsewer_2();" class="img2" src="images/chameau.jpg" alt="chameau" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img3" onclick="getAnsewer_3();" class="img3" src="images/vache.jpg" alt="vache" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img4" onclick="getAnsewer_1();" class="img4" src="images/chien.png"alt="chien" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img5" onclick="getAnsewer_4();" class="img5" src="images/loup.jpg" alt="loup" width="15%"></a>
+                            <a href="javascript:void(0)"><img id="img6" onclick="getAnsewer_5();" class="img6" src="images/poule.jpg" alt="poule" width="15%"></a>
+                    </div> <!--fin div flexy -->
+                    <!-- sert a afficher un boutton qd on a la bonne reponse -->
+                    <div id="modal4" class="mx-auto"></div>
+                  </div> <!--fin div parentquiz qu°1-->
+                  <!-- qu°2 -->
+                  <div class="parentquiz1 card mx-auto text-dark " style="width: 28rem;">
+                        <div class="card-body">
+                          <p class="card-text text-center"><span class=" badge badge-pill badge-dark d-flex justify-content-center " >Question 02</span> Devine qui est l'animal!</p>
+                          <p class="text-center">Elle a deux pattes. Elle a des plumes et pond des oeufs. Ses petits sont les poussins.</p>
+                        </div>
+                        <div class="text-center mx-auto" id="modal5"></div>
+                        <div class=" embed-responsive text-center mx-auto" id="modal6"></div>
+                        <div class="flexy">
+                            <a href="javascript:void(0)"><img id="img10" onclick="getAnsewer_7();" class="img10" src="images/loup.jpg" alt="loup" width="15%"></a>
+                            <a href="javascript:void(0)"><img id="img7" onclick="getAnsewer_8();" class="img7" src="images/chameau.jpg" alt="chameau" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img8" onclick="getAnsewer_9();" class="img8" src="images/vache.jpg" alt="vache" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img11" onclick="getAnsewer_6();" class="img11" src="images/poule.jpg" alt="poule" width="15%"></a>
+                            <a href="javascript:void(0)"><img id="img9" onclick="getAnsewer_10();" class="img9" src="images/chien.png"alt="chien" width="20%"></a>
+                        </div>
+                        <div id="modal7" class="mx-auto"></div>
+                  </div> <!--fin div parentquiz qu°2-->
+                  <!-- qu°3 -->
+                  <div class="parentquiz2 card mx-auto text-dark " style="width: 28rem;">
+                        <div class="card-body">
+                          <p class="card-text text-center"><span class="badge badge-pill badge-dark d-flex justify-content-center " >Question 03</span> Devine qui est l'animal!</p>
+                          <p class="text-center">Il vit dans les déserts. Il a deux bosses. Il peut tenir plusieurs jours sans boire de l'eau.</p>
+                        </div>
+                        <div class="text-center mx-auto" id="modal8"></div>
+                        <div class=" embed-responsive text-center mx-auto" id="modal9"></div>
+                        <div class="flexy">
+                            <a href="javascript:void(0)"><img id="img12" onclick="getAnsewer_12();" class="img12" src="images/vache.jpg" alt="vache" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img13" onclick="getAnsewer_11();" class="img13" src="images/chameau.jpg" alt="chameau" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img14" onclick="getAnsewer_13();" class="img14" src="images/chien.png"alt="chien" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img15" onclick="getAnsewer_14();" class="img15" src="images/loup.jpg" alt="loup" width="15%"></a>
+                            <a href="javascript:void(0)"><img id="img16" onclick="getAnsewer_15();" class="img16" src="images/poule.jpg" alt="poule" width="15%"></a>
+                        </div>
+                        <div id="modal10" class="mx-auto"></div>
+                  </div> <!--fin div parentquiz qu°3-->
+                  <!-- qu°4 -->
+                  <div class="parentquiz3 card mx-auto text-dark " style="width: 28rem;">
+                        <div class="card-body">
+                          <p class="card-text text-center"><span class=" badge badge-pill badge-dark d-flex justify-content-center " >Question 04</span> Devine qui est l'animal!</p>
+                          <p class="text-center">Il mange de la viande. Il vit en meute. Il a mangé la grand-mère du Petit Chaperon Rouge.</p>
+                        </div>
+                        <div class="text-center mx-auto" id="modal11"></div>
+                        <div class=" embed-responsive text-center mx-auto" id="modal12"></div>
+                        <div class="flexy">
+                            <a href="javascript:void(0)"><img id="img20" onclick="getAnsewer_16();" class="img20" src="images/loup.jpg" alt="loup" width="15%"></a>
+                            <a href="javascript:void(0)"><img id="img19" onclick="getAnsewer_17();" class="img19" src="images/chien.png"alt="chien" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img18" onclick="getAnsewer_18();" class="img18" src="images/chameau.jpg" alt="chameau" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img21" onclick="getAnsewer_19();" class="img21" src="images/poule.jpg" alt="poule" width="15%"></a>
+                            <a href="javascript:void(0)"><img id="img17" onclick="getAnsewer_20();" class="img17" src="images/vache.jpg" alt="vache" width="20%"></a>
+                         </div>
+                        <div id="modal13" class="mx-auto"></div>
+                  </div> <!--fin div parentquiz qu°4-->
+                  <!-- qu°5 -->
+                  <div class="parentquiz4 card mx-auto text-dark " style="width: 28rem;">
+                        <div class="card-body">
+                          <p class="card-text text-center"><span class=" badge badge-pill badge-dark d-flex justify-content-center " >Question 05</span> Devine qui est l'animal!</p>
+                          <p class="text-center">Je mange de l'herbe, j'existe en plusieurs couleurs et on exploite mes mamelles pour tes céréales!</p>
+                        </div>
+                        <div class="text-center mx-auto" id="modal14"></div>
+                        <div class=" embed-responsive text-center mx-auto" id="modal15"></div>
+                        <div class="flexy">
+                            <a href="javascript:void(0)"><img id="img24" onclick="getAnsewer_22();" class="img24" src="images/chien.png"alt="chien" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img22" onclick="getAnsewer_23();" class="img22" src="images/chameau.jpg" alt="chameau" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img25" onclick="getAnsewer_24();" class="img25" src="images/loup.jpg" alt="loup" width="15%"></a>
+                            <a href="javascript:void(0)"><img id="img23" onclick="getAnsewer_21();" class="img23" src="images/vache.jpg" alt="vache" width="20%"></a>
+                            <a href="javascript:void(0)"><img id="img26" onclick="getAnsewer_25();" class="img26" src="images/poule.jpg" alt="poule" width="15%"></a>
+                        </div>
+                        <div id="modal16" class="mx-auto"></div>
+                  </div> <!--fin div parentquiz qu°5-->
+                </div> <!-- fin div ligne 25-->
+          </div> <!-- fin div col-->
+        </div> <!-- fin div row-->
+    </div> <!-- fin div container-->
+<!-- scripts -->
+<script src="js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="js/main1.js"></script>
+</body>
+</html>

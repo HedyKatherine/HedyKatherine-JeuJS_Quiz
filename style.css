@@ -1,0 +1,26 @@
+@font-face {
+    font-family:'kg_ray_of_sunshineregular';
+    src: url('font/kgrayofsunshine-webfont.woff2') format('woff2'),
+         url('font/kgrayofsunshine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: url("images/child.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* pour le responsive */
+    background-attachment: fixed;
+    font-family: 'kg_ray_of_sunshineregular';
+}
+.title {
+    color: brown;
+    margin-top: 150px !important;
+}
+/* mediaquery */
+@media screen and (max-width: 980px){
+.box1 button {
+    background-color: brown;
+    color: white !important;
+    }
+}

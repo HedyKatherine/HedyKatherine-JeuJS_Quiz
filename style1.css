@@ -1,0 +1,342 @@
+@font-face{
+    font-family: 'kg_ray_of_sunshineregular';
+    src: url('font/kgrayofsunshine-webfont.woff2') format('woff2'),
+    url('font/kgrayofsunshine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'kg_ray_of_sunshineregular';
+    height: auto !important;
+}
+/* croco */
+.img1{
+   margin-left: 30% !important; 
+   width:80% !important;
+}
+/* boutton commencer */
+.position{
+    border-radius: 10px 100px / 120px !important;
+    margin-top: 50px !important;
+    margin-left: 40% !important; 
+}
+/* code css pour animation "zoom" */
+.flexy{
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1)!important; 
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1) !important; 
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1) !important;   
+  }
+/* zoom qd on passe le curser */
+.img2:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+
+}
+.img3:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+
+}
+.img4:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in!important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5)!important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5)!important;
+
+}
+.img5:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in!important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5)!important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5)!important;
+
+}
+.img6:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5)!important;
+
+}
+.img7:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img8:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in!important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img9:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img10:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img11:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5)!important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img12:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in!important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5)!important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5)!important;
+}
+.img13:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5)!important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img14:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5)!important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img15:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img16:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img17:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5)!important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img18:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img19:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img20:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img21:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5)!important;
+}
+.img22:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img23:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img24:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img25:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+.img26:hover{
+    box-shadow: 0px 0px 150px #000000 !important;
+    z-index: 2 !important;
+    -webkit-transition: all 200ms ease-in !important;
+    -webkit-transform: scale(1.5) !important;
+    -ms-transition: all 200ms ease-in !important;
+    -ms-transform: scale(1.5) !important;   
+    -moz-transition: all 200ms ease-in !important;
+    -moz-transform: scale(1.5) !important;
+    transition: all 200ms ease-in !important;
+    transform: scale(1.5) !important;
+}
+
+
+
